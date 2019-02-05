@@ -1,0 +1,179 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bgstyle"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Name"/>
+        <EditText
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nam"/>
+
+        <Button
+            android:textSize="20dp"
+            android:layout_margin="15dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttonstyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/srch2"
+            android:text="SEARCH"/>
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/t1"
+            android:visibility="gone"
+            android:editable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="actor:"/>
+
+        <EditText
+            android:textColor="#ffffff"
+            android:visibility="gone"
+            android:editable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/p1"/>
+
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/t2"
+            android:visibility="gone"
+            android:editable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="actress:"/>
+
+
+        <EditText
+            android:textColor="#ffffff"
+            android:visibility="gone"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/p2"/>
+
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/t3"
+            android:visibility="gone"
+            android:editable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="release year:"/>
+
+        <EditText
+            android:textColor="#ffffff"
+            android:visibility="gone"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/p3"/>
+
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/t4"
+            android:visibility="gone"
+            android:editable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="director:"/>
+
+
+        <EditText
+            android:textColor="#ffffff"
+            android:visibility="gone"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/p4"/>
+
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/t5"
+            android:visibility="gone"
+            android:editable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="producer:"/>
+
+
+        <EditText
+            android:textColor="#ffffff"
+            android:visibility="gone"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/p5"/>
+
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/t6"
+            android:visibility="gone"
+            android:editable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cameraman:"/>
+
+        <EditText
+            android:textColor="#ffffff"
+            android:visibility="gone"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/p6"/>
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/t7"
+            android:visibility="gone"
+            android:editable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="totalcollection:"/>
+
+        <EditText
+            android:textColor="#ffffff"
+            android:visibility="gone"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/p7"/>
+        <Button
+            android:textSize="20dp"
+            android:layout_margin="15dp"
+            android:visibility="gone"
+            android:editable="false"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttonstyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/up"
+            android:text="UPDATE"/>
+        <Button
+            android:textSize="20dp"
+            android:layout_margin="15dp"
+            android:visibility="gone"
+            android:editable="false"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttonstyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dl"
+            android:text="DELETE"/>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

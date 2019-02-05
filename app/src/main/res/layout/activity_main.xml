@@ -1,0 +1,145 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bgstyle">
+
+        <TextView
+            android:layout_margin="15dp"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="MOVIE NAME"/>
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/mn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_margin="15dp"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LANGUAGE"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/list"></Spinner>
+        <TextView
+            android:layout_margin="15dp"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="MOVIE ACTOR"/>
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/ma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_margin="15dp"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="MOVIE ACTRESS"/>
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/mas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_margin="15dp"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="RELEASE YEAR"/>
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/ry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_margin="15dp"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="DIRECTOR"/>
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/dtr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_margin="15dp"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="PRODUCER"/>
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/pcr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_margin="15dp"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="CAMERA MAN"/>
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/cm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_margin="15dp"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="TOTAL COLLECTION"/>
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/tc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:textSize="20dp"
+            android:layout_margin="15dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttonstyle"
+            android:id="@+id/reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"/>
+
+        <Button
+            android:textSize="20dp"
+            android:layout_margin="15dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttonstyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/srch"
+            android:text="SEARCH"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

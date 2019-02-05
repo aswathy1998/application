@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">movies</string>
+    <string-array name="list">
+        <item>telungu</item>
+        <item>tamil</item>
+        <item>malayalm</item>
+        <item>english</item>
+        <item>hindi</item>
+
+    </string-array>
+
+</resources>
